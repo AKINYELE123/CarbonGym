@@ -92,7 +92,7 @@ const Trainers = () => {
                                 }}
                             >
                                 <Ionicons
-                                    name={liked[person.id] ? "heart" : "heart-outline"}
+                                    name="heart"
                                     size={24}
                                     color={liked[person.id] ? Colors.red : Colors.icon}
                                 />
